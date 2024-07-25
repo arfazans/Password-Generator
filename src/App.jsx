@@ -34,10 +34,10 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url('/img/back2.jpg')] bg-cover bg-center w-full h-screen">
+      <div className="bg-[url('/back.jpg')] bg-cover bg-center w-full h-screen">
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <div className="bg-slate-400 p-6 text-center rounded-lg">
-            <h1 className="p-5 text-lg">Password Generator</h1>
+          <div className="bg-slate-400 p-6 text-center rounded-lg border-double border-4 shadow-2xl  border-indigo-600">
+            <h1 className="p-5 font-bold font-serif text-xl	">Password Generator</h1>
             <input
               className="p-1 w-96 mb-4"
               type="text"
